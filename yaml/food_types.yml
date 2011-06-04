@@ -36,14 +36,14 @@ FoodTypes:
       - Cheese:
         - Blue Vein Cheese
         - Double and Triple Cream  Cheese
-        - Fresh  Cheese
+        - Fresh Cheese
         - Hard Cheese
         - Pasta filata Cheese
         - Processed Cheese
-        - Semi- firm Cheese
-        - Semi- soft Cheese
+        - Semi-firm Cheese
+        - Semi-soft Cheese
         - Sharp  Cheese
-        - Soft- Ripened Cheese
+        - Soft-ripened Cheese
         - Whey Cheese
       - Milk:
         - Cow Milk
@@ -85,7 +85,7 @@ FoodTypes:
           - Port
           - Sherry
           - Vermouth
-        - Non- alcoholic Wine
+        - Non-alcoholic Wine
         - Sake
         - Sparkling Wine
         - Table Wine:
@@ -105,7 +105,7 @@ FoodTypes:
       - Herbal  Tea
       - Honeybush Tea
       - Oolong  Tea
-      - Pu- Erh  Tea
+      - Pu-Erh  Tea
       - Rooibos  Tea
       - White  Tea
       - Yellow  Tea
@@ -138,8 +138,6 @@ FoodTypes:
       - Greengage
       - Honeydew Melon
       - Huckleberry
-      - Kale
-      - Collard Green
       - Kiwi
       - Lemon
       - Loganberry
@@ -268,7 +266,7 @@ FoodTypes:
       - Horseradish
       - Jerusalem Artichoke
       - Jicama (Mexican Turnip)
-      - Kai- lan (Chinese broccoli)
+      - Kai-lan (Chinese broccoli)
       - Kale
       - Kohlrabi (German turnip)
       - Komatsuna
@@ -282,7 +280,7 @@ FoodTypes:
         - Barlotti Bean
         - Beans
         - Black Beans
-        - Black- eyed Pea
+        - Black-eyed Pea
         - Carob
         - Chickpea
         - Common Bean
@@ -429,6 +427,8 @@ FoodTypes:
 
 Modifications:
   - rename:
+    - Oat: Oats
+  - rename:
     - Abbey: Abbey (Beer)
     - Ale: Ale (Beer)
     - Alt: Alt (Beer)
@@ -438,6 +438,28 @@ Modifications:
     - Porter: Porter (Beer)
     - Scotch Ale: Scotch Ale (Beer)
     - Stout: Stout (Beer)
+  - rename:
+    - Cow: Cow Milk
+    - Goat: Goat Milk
+    - Water Buffalo: Water Buffalo Milk
+    - Sheep: Sheep Milk
+  - rename:
+    - Blue Vein: Blue Vein Cheese
+    - Double and Triple Cream: Double and Triple Cream Cheese
+    - Fresh: Fresh Cheese
+    - Hard: Hard Cheese
+    - Pasta filata: Pasta filata Cheese
+    - Processed: Processed Cheese
+    - Semi-firm: Semi-firm Cheese
+    - Semi-soft: Semi-soft Cheese
+    - Sharp: Sharp Cheese
+    - Soft-Ripened: Soft-ripened Cheese
+    - Whey: Whey Cheese
+  - rename:
+    - Dessert: Dessert Wine
+    - Non-alcoholic: Non-alcoholic Wine:
+    - Sparkling: Sparkling Wine
+    
   - delete:     
       - Carrot: ab25d01e-8240-11e0-96db-001a6bce9a58
       
