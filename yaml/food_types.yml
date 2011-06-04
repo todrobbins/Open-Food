@@ -433,11 +433,11 @@ FoodTypes:
 # be sure to add renames here for anything you rename above or it will get duplicated
 
 Modifications:
-  # -- leaving this in but commented as examples
-  #- delete:
-  #  - Goat: 62127546-8239-11e0-96db-001a6bce9a58
-  #- rename:
-  #  - Oat: Oats
+  # these will do nothing but need to be there or else the worker fails leaving this in but commented as examples
+  - delete:
+    - Goat: 62127546-8239-11e0-96db-001a6bce9a58
+  - rename:
+    - Oat: Oats
   #- rename:
   #  - Abbey: Abbey (Beer)
   #  - Ale: Ale (Beer)
