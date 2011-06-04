@@ -203,6 +203,10 @@ FoodTypes:
     - Seeds:
       - Cacao:
         - Chocolate
+      - Sunflower Seeds
+      - Sesame Seeds
+      - Pumpkin Seeds
+      - Poppy Seeds
     - Tree:
       - Syrup:
         - Birch
