@@ -429,42 +429,23 @@ FoodTypes:
         - Seasoned Salt
   - Manufactured
 
+# modifications will run before updates 
+# be sure to add renames here for anything you rename above or it will get duplicated
+
 Modifications:
-  - delete:
-    - Goat: 62127546-8239-11e0-96db-001a6bce9a58
-  - rename:
-    - Oat: Oats
-  - rename:
-    - Abbey: Abbey (Beer)
-    - Ale: Ale (Beer)
-    - Alt: Alt (Beer)
-    - India Pale Ale: India Pale Ale (Beer)
-    - Lager: Lager (Beer)
-    - Lambic: Lambic (Beer)
-    - Porter: Porter (Beer)
-    - Scotch Ale: Scotch Ale (Beer)
-    - Stout: Stout (Beer)
-  - rename:
-    - Cow: Cow Milk
-    - Water Buffalo: Water Buffalo Milk
-    - Sheep: Sheep Milk
-  - rename:
-    - Blue Vein: Blue Vein Cheese
-    - Double and Triple Cream: Double and Triple Cream Cheese
-    - Fresh: Fresh Cheese
-    - Hard: Hard Cheese
-    - Pasta filata: Pasta filata Cheese
-    - Processed: Processed Cheese
-    - Semi-firm: Semi-firm Cheese
-    - Semi-soft: Semi-soft Cheese
-    - Sharp: Sharp Cheese
-    - Soft-Ripened: Soft-ripened Cheese
-    - Whey: Whey Cheese
-  - rename:
-    - Dessert: Dessert Wine
-    - Non-alcoholic: Non-alcoholic Wine
-    - Sparkling: Sparkling Wine
-  - delete:     
-      - Carrot: ab25d01e-8240-11e0-96db-001a6bce9a58
-      
+  # -- leaving this in but commented as examples
+  #- delete:
+  #  - Goat: 62127546-8239-11e0-96db-001a6bce9a58
+  #- rename:
+  #  - Oat: Oats
+  #- rename:
+  #  - Abbey: Abbey (Beer)
+  #  - Ale: Ale (Beer)
+  #  - Alt: Alt (Beer)
+  #  - India Pale Ale: India Pale Ale (Beer)
+  #  - Lager: Lager (Beer)
+  #  - Lambic: Lambic (Beer)
+  #  - Porter: Porter (Beer)
+  #  - Scotch Ale: Scotch Ale (Beer)
+  #  - Stout: Stout (Beer)
   
