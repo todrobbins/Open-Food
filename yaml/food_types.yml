@@ -457,9 +457,8 @@ Modifications:
     - Whey: Whey Cheese
   - rename:
     - Dessert: Dessert Wine
-    - Non-alcoholic: Non-alcoholic Wine:
+    - Non-alcoholic: Non-alcoholic Wine
     - Sparkling: Sparkling Wine
-    
   - delete:     
       - Carrot: ab25d01e-8240-11e0-96db-001a6bce9a58
       
