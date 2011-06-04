@@ -1,427 +1,444 @@
 ---
-- Animal:
-  - Meat:
-    - Beef
-    - Bison
-    - Goat
-    - Horse
-    - Lamb
-    - Mutton
-    - Pork
-    - Poultry:
-      - Chicken
-      - Duck
-      - Goose
-      - Pheasant
-      - Pigeon
-      - Quail
-      - Turkey
-    - Seafood:
-      - Fish:
-        - Salmon:
-            - Sockeye Salmon
-            - Coho Salmon
-            - Spring Salmon
-            - Ivory Salmon
-        - Halibut
-        - Sablefish (Black Cod)
-        - Tuna:
-            - Albacore Tuna
-      - Shellfish:
-        - Spot Prawn
-        - Crab
-    - Venison
-  - Dairy:
-    - Cheese:
-      - Blue Vein Cheese
-      - Double and Triple Cream  Cheese
-      - Fresh  Cheese
-      - Hard Cheese
-      - Pasta filata Cheese
-      - Processed Cheese
-      - Semi- firm Cheese
-      - Semi- soft Cheese
-      - Sharp  Cheese
-      - Soft- Ripened Cheese
-      - Whey Cheese
-    - Milk:
-      - Cow Milk
-      - Goat Milk
-      - Sheep Milk
-      - Water Buffalo Milk
-    - Sour Cream
-    - Yogurt
-  - Eggs:
-    - Chicken Eggs
-    - Duck Eggs
-    - Quail Eggs
-  - Honey
-- Beverage:
-  - Alcohol:
-    - Beer:
-      - Abbey   (Beer)
-      - Ale (Beer)
-      - Alt (Beer)  
-      - India Pale Ale (Beer)  
-      - Lager  (Beer)
-      - Lambic (Beer)
-      - Porter  (Beer)
-      - Scotch Ale (Beer)  
-      - Stout  (Beer)
-    - Spirit:
-      - Brandy
-      - Gin
-      - Rum
-      - Tequila
-      - Vodka
-      - Whisky
-    - Wine:
-      - Cider
-      - Dessert Wine
-      - Fortified Wine:
-        - Madeira
-        - Marsala
-        - Port
-        - Sherry
-        - Vermouth
-      - Non- alcoholic Wine
-      - Sake
-      - Sparkling Wine
-      - Table Wine:
-        - Red  Table Wine
-        - Rose Table Wine
-        - White Table Wine
-  - Coffee
-  - Juice:
-    - Apple Juice
-    - Apple Cider
-    - Orange Juice
-  - Tea:
-    - Black  Tea
-    - Chai  Tea
-    - Flowering Tea
-    - Green  Tea
-    - Herbal  Tea
-    - Honeybush Tea
-    - Oolong  Tea
-    - Pu- Erh  Tea
-    - Rooibos  Tea
-    - White  Tea
-    - Yellow  Tea
-    - Yerba Mate Tea
-  - Water
-- Fungi:
-  - Mushrooms:
-    - Crimini Mushroom
-    - Morel Mushroom
-    - Oyster Mushroom
-    - Porcini Mushroom
-    - Shiitake Mushroom
-  - Yeast
-  - Truffle
-- Plant:
-  - Fruit:
-    - Apple
-    - Apricot
-    - Banana
-    - Berry
-    - Blackberry
-    - Blueberry
-    - Cantaloupe
-    - Cherry
-    - Chokeberry
-    - Cranberry
-    - Currant
-    - Gooseberry
-    - Grape
-    - Greengage
-    - Honeydew Melon
-    - Huckleberry
-    - Kale
-    - Collard Green
-    - Kiwi
-    - Lemon
-    - Loganberry
-    - Loquat
-    - Mandarine
-    - Mango
-    - Melon
-    - Nectarine
-    - Orange
-    - Peach
-    - Pear
-    - Pineapple
-    - Plum
-    - Pomegranate
-    - Pommelo
-    - Quince
-    - Raspberry
-    - Salmonberry
-    - Saskatoon Berry
-    - Strawberry
-    - Tangerine
-    - Watermelon
-  - Grasses:
-    - Cereals:
+FoodTypes:
+  - Animal:
+    - Meat:
+      - Beef
+      - Bison
+      - Goat
+      - Horse
+      - Lamb
+      - Mutton
+      - Pork
+      - Poultry:
+        - Chicken
+        - Duck
+        - Goose
+        - Pheasant
+        - Pigeon
+        - Quail
+        - Turkey
+      - Seafood:
+        - Fish:
+          - Salmon:
+              - Sockeye Salmon
+              - Coho Salmon
+              - Spring Salmon
+              - Ivory Salmon
+          - Halibut
+          - Sablefish (Black Cod)
+          - Tuna:
+              - Albacore Tuna
+        - Shellfish:
+          - Spot Prawn
+          - Crab
+      - Venison
+    - Dairy:
+      - Cheese:
+        - Blue Vein Cheese
+        - Double and Triple Cream  Cheese
+        - Fresh  Cheese
+        - Hard Cheese
+        - Pasta filata Cheese
+        - Processed Cheese
+        - Semi- firm Cheese
+        - Semi- soft Cheese
+        - Sharp  Cheese
+        - Soft- Ripened Cheese
+        - Whey Cheese
+      - Milk:
+        - Cow Milk
+        - Goat Milk
+        - Sheep Milk
+        - Water Buffalo Milk
+      - Sour Cream
+      - Yogurt
+    - Eggs:
+      - Chicken Eggs
+      - Duck Eggs
+      - Quail Eggs
+    - Honey
+  - Beverage:
+    - Alcohol:
+      - Beer:
+        - Abbey   (Beer)
+        - Ale (Beer)
+        - Alt (Beer)  
+        - India Pale Ale (Beer)  
+        - Lager  (Beer)
+        - Lambic (Beer)
+        - Porter  (Beer)
+        - Scotch Ale (Beer)  
+        - Stout  (Beer)
+      - Spirit:
+        - Brandy
+        - Gin
+        - Rum
+        - Tequila
+        - Vodka
+        - Whisky
+      - Wine:
+        - Cider
+        - Dessert Wine
+        - Fortified Wine:
+          - Madeira
+          - Marsala
+          - Port
+          - Sherry
+          - Vermouth
+        - Non- alcoholic Wine
+        - Sake
+        - Sparkling Wine
+        - Table Wine:
+          - Red  Table Wine
+          - Rose Table Wine
+          - White Table Wine
+    - Coffee
+    - Juice:
+      - Apple Juice
+      - Apple Cider
+      - Orange Juice
+    - Tea:
+      - Black  Tea
+      - Chai  Tea
+      - Flowering Tea
+      - Green  Tea
+      - Herbal  Tea
+      - Honeybush Tea
+      - Oolong  Tea
+      - Pu- Erh  Tea
+      - Rooibos  Tea
+      - White  Tea
+      - Yellow  Tea
+      - Yerba Mate Tea
+    - Water
+  - Fungi:
+    - Mushrooms:
+      - Crimini Mushroom
+      - Morel Mushroom
+      - Oyster Mushroom
+      - Porcini Mushroom
+      - Shiitake Mushroom
+    - Yeast
+    - Truffle
+  - Plant:
+    - Fruit:
+      - Apple
+      - Apricot
+      - Banana
+      - Berry
+      - Blackberry
+      - Blueberry
+      - Cantaloupe
+      - Cherry
+      - Chokeberry
+      - Cranberry
+      - Currant
+      - Gooseberry
+      - Grape
+      - Greengage
+      - Honeydew Melon
+      - Huckleberry
+      - Kale
+      - Collard Green
+      - Kiwi
+      - Lemon
+      - Loganberry
+      - Loquat
+      - Mandarine
+      - Mango
+      - Melon
+      - Nectarine
+      - Orange
+      - Peach
+      - Pear
+      - Pineapple
+      - Plum
+      - Pomegranate
+      - Pommelo
+      - Quince
+      - Raspberry
+      - Salmonberry
+      - Saskatoon Berry
+      - Strawberry
+      - Tangerine
+      - Watermelon
+    - Grasses:
+      - Cereals:
+        - Amaranth
+        - Barley
+        - Buckwheat
+        - Folio
+        - Maize
+        - Millet
+        - Oats
+        - Quinoa
+        - Rice
+        - Rye
+        - Sorghum
+        - Teff
+        - Triticale
+        - Wheat:
+          - Durum  Wheat
+          - Einkorn  Wheat
+          - Emmer  Wheat
+          - Hard Red Spring  Wheat
+          - Hard Red Winter  Wheat
+          - Hard White  Wheat
+          - Soft Red Winter  Wheat
+          - Soft White  Wheat
+          - Spelt  Wheat
+        - Wild Rice
+      - Sugar Cane:
+        - Molasses
+        - Table Sugar
+    - Nuts:
+      - Almond
+      - Pecan
+      - Walnut
+      - Hazelnut
+      - Brazil Nut
+      - Cashew Nut
+      - Macadamia nut
+      - Chestnut
+      - Pine Nut
+      - Pistachio
+    - Seeds:
+      - Cacao:
+        - Chocolate
+    - Tree:
+      - Syrup:
+        - Birch
+        - Maple
+    - Vegetable:
       - Amaranth
-      - Barley
-      - Buckwheat
-      - Folio
-      - Maize
-      - Millet
-      - Oats
-      - Quinoa
-      - Rice
-      - Rye
-      - Sorghum
-      - Teff
-      - Triticale
-      - Wheat:
-        - Durum  Wheat
-        - Einkorn  Wheat
-        - Emmer  Wheat
-        - Hard Red Spring  Wheat
-        - Hard Red Winter  Wheat
-        - Hard White  Wheat
-        - Soft Red Winter  Wheat
-        - Soft White  Wheat
-        - Spelt  Wheat
-      - Wild Rice
-    - Sugar Cane:
-      - Molasses
-      - Table Sugar
-  - Nuts:
-    - Almond
-    - Pecan
-    - Walnut
-    - Hazelnut
-    - Brazil Nut
-    - Cashew Nut
-    - Macadamia nut
-    - Chestnut
-    - Pine Nut
-    - Pistachio
-  - Seeds:
-    - Cacao:
-      - Chocolate
-  - Tree:
-    - Syrup:
-      - Birch
-      - Maple
-  - Vegetable:
-    - Amaranth
-    - Aphia
-    - Arracacha
-    - Arrowhead
-    - Arrowroot
-    - Artichoke
-    - Arugula
-    - Asparagus
-    - Avocado
-    - Beet Greens
-    - Beetroot
-    - Bell Pepper (capsicum)   
-    - Bitter Melon
-    - Bitterleaf
-    - Black Cumin
-    - Bok Choy
-    - Broadleaf Arrowhead
-    - Broccoli
-    - Brussels Sprout
-    - Cabbage
-    - Caigua
-    - Canna
-    - Cardoon
-    - Carrot
-    - Cassava
-    - Catsear
-    - Cauliflower
-    - Cayenne Pepper
-    - Celery
-    - Ceylon Spinach
-    - Chard
-    - Chayote
-    - Chili Pepper
-    - Chinese Artichoke
-    - Chinese Cabbage
-    - Chives
-    - Collard Greens
-    - Corn Salad
-    - Cucumber
-    - Daikon
-    - Dandelion Greens
-    - Eggplant (Aubergine)   
-    - Elephant Garlic
-    - Endive
-    - Ensete
-    - Fennel
-    - Fiddlehead
-    - Fiddlehead Fern
-    - Florence Fennel
-    - Fluted Pumpkin
-    - Garden Cress
-    - Garlic
-    - Ginger
-    - Gobo
-    - Golden Samphire
-    - Horseradish
-    - Jerusalem Artichoke
-    - Jicama (Mexican Turnip)
-    - Kai- lan (Chinese broccoli)
-    - Kale
-    - Kohlrabi (German turnip)
-    - Komatsuna
-    - Kurrat
-    - Lamb's Lettuce
-    - Land Cress
-    - Leek
-    - Legumes:
-      - Adzuki Bean
-      - Anasazi bean
-      - Barlotti Bean
-      - Beans
-      - Black Beans
-      - Black- eyed Pea
-      - Carob
-      - Chickpea
-      - Common Bean
-      - Drumstick
-      - Edamame (green soybean)
-      - Fava Bean
-      - Green Bean (French beans)
-      - Groundnut
-      - Guar Bean
-      - Horse Gram
-      - Hyacinth bean
-      - Indian Pea
-      - Lentil
-      - Lima Bean
-      - Lupins
-      - Mesquite
-      - Moth Bean
-      - Mung Bean
-      - Navy Bean
-      - Pea
-      - Peanut
-      - Pigeon Pea
-      - Red Kidney Bean
-      - Ricebean
-      - Runner Bean
-      - Soybean
-      - Tarwi
-      - Tepary Bean
-      - Turtle Bean
-      - Urad Bean
-      - Velvet Bean
-      - Winged Bean
-      - Yardlong Bean
-    - Lettuce
-    - Lotus Roots
-    - Luffa
-    - Malabar Gourd
-    - Mint
-    - Mizuna Greens (Japanese mustard)
-    - Nasturtium
-    - Nettles
-    - Nopal
-    - Okra
-    - Olives
-    - Onion
-    - Paracress
-    - Parsley
-    - Parsnip
-    - Pignut
-    - Pointed Gourd
-    - Potato
-    - Potatoes
-    - Prairie Turnip
-    - Prussian Asparagus
-    - Pumpkin
-    - Purslane
-    - Radicchio
-    - Radish
-    - Rapini
-    - Rhubarb
-    - Rutabaga
-    - Salsify (oyster plant)
-    - Samphire
-    - Savoy
-    - Scorzonera (black oyster plant)
-    - Sea Asparagus
-    - Sea Beat
-    - Sea Kale
-    - Seaweeds:
-      - Aonori  Seaweed
-      - Arame  Seaweed
-      - Carola  Seaweed
-      - Dabberlocks (winged kelp)  Seaweed
-      - Dulse  Seaweed
-      - Gim  Seaweed
-      - Hijki  Seaweed
-      - Irish Moss  Seaweed
-      - Kelps  Seaweed
-      - Kombu  Seaweed
-      - Laver  Seaweed
-      - Mozuku  Seaweed
-      - Nori (laver)  Seaweed
-      - Ogonori  Seaweed
-      - Sea Grape  Seaweed
-      - Sea Lettuce  Seaweed
-      - Seakale  Seaweed
-      - Sloke  Seaweed
-      - Wakame  Seaweed
-    - Shallot
-    - Skirret
-    - Snake Gourd
-    - Sorrel
-    - Spinach
-    - Sprouts
-    - Squash Blossom
-    - Summer Squash
-    - Sweet Bell Pepper
-    - Sweet Corn
-    - Sweet Peas
-    - Sweet Potato
-    - Sweet Potatoes
-    - Swiss Chard
-    - Taro
-    - Ti Plant
-    - Tinda
-    - Tomatillo
-    - Tomato
-    - Turnip
-    - Ulluco
-    - Wasabi (Japanese horseradish)   
-    - Water Chestnut
-    - Water Cress
-    - Water Spinach
-    - Welsh Onion or Scallions (spring onion)   
-    - Winter Melon (ash or white gourd)   
-    - Winter Purslane
-    - Winter Squash
-    - Yacon
-    - Yam
-    - Zucchini
-- Spices:
-  - Salt:
-    - Kosher Salt
-    - Sea Salt:
-      - Black Salt
-      - Coarse Salt
-      - Flake Salt
-      - Fleur de Sel
-      - French Sea Salt
-      - Grey Salt
-      - Grinder Salt
-      - Hawaiian Salt
-      - Italian Sea Salt
-      - Smoked Sea Salt
-    - Table Salt:
-      - Canning Salt
-      - Coarse Salt
-      - Iodized Salt
-      - Popcorn Salt
-      - Pretzel Salt
-      - Rock Salt
-      - Seasoned Salt
-- Manufactured
+      - Aphia
+      - Arracacha
+      - Arrowhead
+      - Arrowroot
+      - Artichoke
+      - Arugula
+      - Asparagus
+      - Avocado
+      - Beet Greens
+      - Beetroot
+      - Bell Pepper (capsicum)   
+      - Bitter Melon
+      - Bitterleaf
+      - Black Cumin
+      - Bok Choy
+      - Broadleaf Arrowhead
+      - Broccoli
+      - Brussels Sprout
+      - Cabbage
+      - Caigua
+      - Canna
+      - Cardoon
+      - Carrot
+      - Cassava
+      - Catsear
+      - Cauliflower
+      - Cayenne Pepper
+      - Celery
+      - Ceylon Spinach
+      - Chard
+      - Chayote
+      - Chili Pepper
+      - Chinese Artichoke
+      - Chinese Cabbage
+      - Chives
+      - Collard Greens
+      - Corn Salad
+      - Cucumber
+      - Daikon
+      - Dandelion Greens
+      - Eggplant (Aubergine)   
+      - Elephant Garlic
+      - Endive
+      - Ensete
+      - Fennel
+      - Fiddlehead
+      - Fiddlehead Fern
+      - Florence Fennel
+      - Fluted Pumpkin
+      - Garden Cress
+      - Garlic
+      - Ginger
+      - Gobo
+      - Golden Samphire
+      - Horseradish
+      - Jerusalem Artichoke
+      - Jicama (Mexican Turnip)
+      - Kai- lan (Chinese broccoli)
+      - Kale
+      - Kohlrabi (German turnip)
+      - Komatsuna
+      - Kurrat
+      - Lamb's Lettuce
+      - Land Cress
+      - Leek
+      - Legumes:
+        - Adzuki Bean
+        - Anasazi bean
+        - Barlotti Bean
+        - Beans
+        - Black Beans
+        - Black- eyed Pea
+        - Carob
+        - Chickpea
+        - Common Bean
+        - Drumstick
+        - Edamame (green soybean)
+        - Fava Bean
+        - Green Bean (French beans)
+        - Groundnut
+        - Guar Bean
+        - Horse Gram
+        - Hyacinth bean
+        - Indian Pea
+        - Lentil
+        - Lima Bean
+        - Lupins
+        - Mesquite
+        - Moth Bean
+        - Mung Bean
+        - Navy Bean
+        - Pea
+        - Peanut
+        - Pigeon Pea
+        - Red Kidney Bean
+        - Ricebean
+        - Runner Bean
+        - Soybean
+        - Tarwi
+        - Tepary Bean
+        - Turtle Bean
+        - Urad Bean
+        - Velvet Bean
+        - Winged Bean
+        - Yardlong Bean
+      - Lettuce
+      - Lotus Roots
+      - Luffa
+      - Malabar Gourd
+      - Mint
+      - Mizuna Greens (Japanese mustard)
+      - Nasturtium
+      - Nettles
+      - Nopal
+      - Okra
+      - Olives
+      - Onion
+      - Paracress
+      - Parsley
+      - Parsnip
+      - Pignut
+      - Pointed Gourd
+      - Potato
+      - Potatoes
+      - Prairie Turnip
+      - Prussian Asparagus
+      - Pumpkin
+      - Purslane
+      - Radicchio
+      - Radish
+      - Rapini
+      - Rhubarb
+      - Rutabaga
+      - Salsify (oyster plant)
+      - Samphire
+      - Savoy
+      - Scorzonera (black oyster plant)
+      - Sea Asparagus
+      - Sea Beat
+      - Sea Kale
+      - Seaweeds:
+        - Aonori  Seaweed
+        - Arame  Seaweed
+        - Carola  Seaweed
+        - Dabberlocks (winged kelp)  Seaweed
+        - Dulse  Seaweed
+        - Gim  Seaweed
+        - Hijki  Seaweed
+        - Irish Moss  Seaweed
+        - Kelps  Seaweed
+        - Kombu  Seaweed
+        - Laver  Seaweed
+        - Mozuku  Seaweed
+        - Nori (laver)  Seaweed
+        - Ogonori  Seaweed
+        - Sea Grape  Seaweed
+        - Sea Lettuce  Seaweed
+        - Seakale  Seaweed
+        - Sloke  Seaweed
+        - Wakame  Seaweed
+      - Shallot
+      - Skirret
+      - Snake Gourd
+      - Sorrel
+      - Spinach
+      - Sprouts
+      - Squash Blossom
+      - Summer Squash
+      - Sweet Bell Pepper
+      - Sweet Corn
+      - Sweet Peas
+      - Sweet Potato
+      - Sweet Potatoes
+      - Swiss Chard
+      - Taro
+      - Ti Plant
+      - Tinda
+      - Tomatillo
+      - Tomato
+      - Turnip
+      - Ulluco
+      - Wasabi (Japanese horseradish)   
+      - Water Chestnut
+      - Water Cress
+      - Water Spinach
+      - Welsh Onion or Scallions (spring onion)   
+      - Winter Melon (ash or white gourd)   
+      - Winter Purslane
+      - Winter Squash
+      - Yacon
+      - Yam
+      - Zucchini
+  - Spices:
+    - Salt:
+      - Kosher Salt
+      - Sea Salt:
+        - Black Salt
+        - Coarse Salt
+        - Flake Salt
+        - Fleur de Sel
+        - French Sea Salt
+        - Grey Salt
+        - Grinder Salt
+        - Hawaiian Salt
+        - Italian Sea Salt
+        - Smoked Sea Salt
+      - Table Salt:
+        - Canning Salt
+        - Coarse Salt
+        - Iodized Salt
+        - Popcorn Salt
+        - Pretzel Salt
+        - Rock Salt
+        - Seasoned Salt
+  - Manufactured
+
+Modifications:
+  - rename:
+    - Abbey: Abbey (Beer)
+    - Ale: Ale (Beer)
+    - Alt: Alt (Beer)
+    - India Pale Ale: India Pale Ale (Beer)
+    - Lager: Lager (Beer)
+    - Lambic: Lambic (Beer)
+    - Porter: Porter (Beer)
+    - Scotch Ale: Scotch Ale (Beer)
+    - Stout: Stout (Beer)
+  - delete:     
+      - Carrot: 8ee9ac20-8242-11e0-96db-001a6bce9a58
+      
+  
