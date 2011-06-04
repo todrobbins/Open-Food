@@ -426,6 +426,8 @@ FoodTypes:
   - Manufactured
 
 Modifications:
+  - delete:
+    - Goat: 62127546-8239-11e0-96db-001a6bce9a58
   - rename:
     - Oat: Oats
   - rename:
@@ -440,7 +442,6 @@ Modifications:
     - Stout: Stout (Beer)
   - rename:
     - Cow: Cow Milk
-    - Goat: Goat Milk
     - Water Buffalo: Water Buffalo Milk
     - Sheep: Sheep Milk
   - rename:
