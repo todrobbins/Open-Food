@@ -117,6 +117,7 @@ FoodTypes:
       - Morel Mushroom
       - Oyster Mushroom
       - Porcini Mushroom
+      - Portobello Mushroom
       - Shiitake Mushroom
     - Yeast
     - Truffle
@@ -209,8 +210,8 @@ FoodTypes:
       - Poppy Seeds
     - Tree:
       - Syrup:
-        - Birch
-        - Maple
+        - Birch Syrup
+        - Maple Syrup
     - Vegetable:
       - Amaranth
       - Aphia
@@ -345,6 +346,7 @@ FoodTypes:
       - Radish
       - Rapini
       - Rhubarb
+      - Rosemary
       - Rutabaga
       - Salsify (oyster plant)
       - Samphire
@@ -388,6 +390,7 @@ FoodTypes:
       - Sweet Potatoes
       - Swiss Chard
       - Taro
+      - Thyme
       - Ti Plant
       - Tinda
       - Tomatillo
@@ -448,4 +451,8 @@ Modifications:
   #  - Porter: Porter (Beer)
   #  - Scotch Ale: Scotch Ale (Beer)
   #  - Stout: Stout (Beer)
+
+  - rename:
+    - Birch: Birch Syrup
+    - Maple: Maple Syrup
   
