@@ -4,7 +4,7 @@ FoodTypes:
     - Meat:
       - Beef
       - Bison
-      - Goat
+      - Goat Meat
       - Horse
       - Lamb
       - Mutton
@@ -17,6 +17,9 @@ FoodTypes:
         - Pigeon
         - Quail
         - Turkey
+      - Venison
+      - Elk
+      - Moose
       - Seafood:
         - Fish:
           - Salmon:
@@ -24,20 +27,25 @@ FoodTypes:
               - Coho Salmon
               - Spring Salmon
               - Ivory Salmon
+              - Pink Salmon
           - Halibut
+          - Lingcod
+          - Rockfish
           - Sablefish (Black Cod)
           - Tuna:
               - Albacore Tuna
         - Shellfish:
+          - Oyster
+          - Mussels
           - Spot Prawn
           - Crab
-      - Venison
     - Dairy:
       - Cheese:
         - Blue Vein Cheese
         - Double and Triple Cream  Cheese
         - Fresh Cheese
         - Hard Cheese
+        - Goat Cheese
         - Pasta filata Cheese
         - Processed Cheese
         - Semi-firm Cheese
@@ -113,7 +121,10 @@ FoodTypes:
     - Water
   - Fungi:
     - Mushrooms:
+      - Chanterelle Mushroom
       - Crimini Mushroom
+      - Black Trumpet Mushroom
+      - Lobster Mushroom
       - Morel Mushroom
       - Oyster Mushroom
       - Porcini Mushroom
@@ -223,8 +234,8 @@ FoodTypes:
       - Asparagus
       - Avocado
       - Beet Greens
-      - Beetroot
-      - Bell Pepper (capsicum)   
+      - Beets
+      - Bell Pepper   
       - Bitter Melon
       - Bitterleaf
       - Black Cumin
@@ -248,7 +259,6 @@ FoodTypes:
       - Chili Pepper
       - Chinese Artichoke
       - Chinese Cabbage
-      - Chives
       - Collard Greens
       - Corn Salad
       - Cucumber
@@ -268,10 +278,23 @@ FoodTypes:
       - Ginger
       - Gobo
       - Golden Samphire
+      - Herb:
+        - Basil
+        - Lemon Basil
+        - Thai Basil
+        - Bay Leaf
+        - Chives
+        - Chervil
+        - Cilantro
+        - Lavendar
+        - Rosemary
+        - Thyme
+        - Parsley
+        - Mint
       - Horseradish
       - Jerusalem Artichoke
       - Jicama (Mexican Turnip)
-      - Kai-lan (Chinese broccoli)
+      - Kai-lan/Gai-lan (Chinese broccoli)
       - Kale
       - Kohlrabi (German turnip)
       - Komatsuna
@@ -323,7 +346,6 @@ FoodTypes:
       - Lotus Roots
       - Luffa
       - Malabar Gourd
-      - Mint
       - Mizuna Greens (Japanese mustard)
       - Nasturtium
       - Nettles
@@ -332,7 +354,6 @@ FoodTypes:
       - Olives
       - Onion
       - Paracress
-      - Parsley
       - Parsnip
       - Pignut
       - Pointed Gourd
@@ -346,7 +367,6 @@ FoodTypes:
       - Radish
       - Rapini
       - Rhubarb
-      - Rosemary
       - Rutabaga
       - Salsify (oyster plant)
       - Samphire
@@ -355,7 +375,7 @@ FoodTypes:
       - Sea Asparagus
       - Sea Beat
       - Sea Kale
-      - Seaweeds:
+      - Seaweed:
         - Aonori  Seaweed
         - Arame  Seaweed
         - Carola  Seaweed
@@ -387,10 +407,8 @@ FoodTypes:
       - Sweet Corn
       - Sweet Peas
       - Sweet Potato
-      - Sweet Potatoes
       - Swiss Chard
       - Taro
-      - Thyme
       - Ti Plant
       - Tinda
       - Tomatillo
@@ -430,6 +448,30 @@ FoodTypes:
         - Pretzel Salt
         - Rock Salt
         - Seasoned Salt
+  - Processed:
+    - Bread
+    - Pastry:
+        - Pie
+        - Cookie
+        - Muffin
+        - Croissant
+        - Cake
+        - Scone
+        - Crepe
+    - Canned:
+        - Jam
+        - Jelly
+        - Marmalade
+        - Preserves
+        - Pickled: 
+         - Pickled Vegetable
+         - Pickles
+        - Salsa
+        - Sauce
+     - Compound:
+        - Sandwich
+        - Taco
+        - Pizza
   - Manufactured
 
 # modifications will run before updates 
@@ -455,4 +497,6 @@ Modifications:
   - rename:
     - Birch: Birch Syrup
     - Maple: Maple Syrup
+    - Seaweeds: Seaweed
+    - Goat: Goat Meat
   
