@@ -478,7 +478,7 @@ FoodTypes:
 # modifications will run before updates 
 # be sure to add renames here for anything you rename above or it will get duplicated
 
-Modifications:
+PreModifications:
   # these will do nothing but need to be there or else the worker fails leaving this in but commented as examples
   - delete:
     - Goat: 62127546-8239-11e0-96db-001a6bce9a58
@@ -495,12 +495,6 @@ Modifications:
   #  - Scotch Ale: Scotch Ale (Beer)
   #  - Stout: Stout (Beer)
 
-  - move:
-    - Venison: Meat 
-    - Chives: Herb
-    - Mint: Herb
-    - Parsley: Herb
-    - Rosemary: Herb
   - rename:
     - Birch: Birch Syrup
     - Maple: Maple Syrup
@@ -509,4 +503,13 @@ Modifications:
     - Beetroot: Beet
     - Bell Pepper (Capsicum): Bell Pepper
     - Kai-Lan (Chinese Broccoli): Kai-Lan/Gai-Lan (Chinese Broccoli)
+
+#these will run after the new foodtypes tree is inserted
+PostModifications:
+  - move:
+    - Venison: Meat 
+    - Chives: Herb
+    - Mint: Herb
+    - Parsley: Herb
+    - Rosemary: Herb
   
