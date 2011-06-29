@@ -294,7 +294,7 @@ FoodTypes:
       - Horseradish
       - Jerusalem Artichoke
       - Jicama (Mexican Turnip)
-      - Kai-lan/Gai-lan (Chinese Broccoli)
+      - Kai-Lan/Gai-Lan (Chinese Broccoli)
       - Kale
       - Kohlrabi (German turnip)
       - Komatsuna
@@ -495,14 +495,6 @@ PreModifications:
   #  - Scotch Ale: Scotch Ale (Beer)
   #  - Stout: Stout (Beer)
 
-  - rename:
-    - Birch: Birch Syrup
-    - Maple: Maple Syrup
-    - Seaweeds: Seaweed
-    - Goat: Goat Meat
-    - Beetroot: Beet
-    - Bell Pepper (Capsicum): Bell Pepper
-    - Kai-Lan (Chinese Broccoli): Kai-Lan/Gai-Lan (Chinese Broccoli)
 
 #these will run after the new foodtypes tree is inserted
 # unfortunately - this didn't solve the problem that I thought it would
@@ -510,9 +502,8 @@ PreModifications:
 # currently there is no way to do this on the same run without getting duplicates
 PostModifications:
   - move:
-    - Venison: Meat 
-#    - Chives: Herb
-    # - Mint: Herb
-    # - Parsley: Herb
-    # - Rosemary: Herb
+    - Chives: Herb
+    - Mint: Herb
+    - Parsley: Herb
+    - Rosemary: Herb
   
