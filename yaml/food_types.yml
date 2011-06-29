@@ -496,11 +496,11 @@ Modifications:
   #  - Stout: Stout (Beer)
 
   - move:
-    - Venison
-    - Chives
-    - Mint
-    - Parsley
-    - Rosemary
+    - Venison: Meat 
+    - Chives: Herb
+    - Mint: Herb
+    - Parsley: Herb
+    - Rosemary: Herb
   - rename:
     - Birch: Birch Syrup
     - Maple: Maple Syrup
