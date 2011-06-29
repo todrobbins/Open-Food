@@ -294,7 +294,7 @@ FoodTypes:
       - Horseradish
       - Jerusalem Artichoke
       - Jicama (Mexican Turnip)
-      - Kai-lan/Gai-lan (Chinese broccoli)
+      - Kai-lan/Gai-lan (Chinese Broccoli)
       - Kale
       - Kohlrabi (German turnip)
       - Komatsuna
@@ -505,6 +505,9 @@ PreModifications:
     - Kai-Lan (Chinese Broccoli): Kai-Lan/Gai-Lan (Chinese Broccoli)
 
 #these will run after the new foodtypes tree is inserted
+# unfortunately - this didn't solve the problem that I thought it would
+# the problem is the case where you create a new branch and move existing items into it
+# currently there is no way to do this on the same run without getting duplicates
 PostModifications:
   - move:
     - Venison: Meat 
