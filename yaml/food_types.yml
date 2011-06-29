@@ -511,8 +511,8 @@ PreModifications:
 PostModifications:
   - move:
     - Venison: Meat 
-    - Chives: Herb
-    - Mint: Herb
-    - Parsley: Herb
-    - Rosemary: Herb
+#    - Chives: Herb
+    # - Mint: Herb
+    # - Parsley: Herb
+    # - Rosemary: Herb
   
