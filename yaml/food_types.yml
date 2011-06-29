@@ -468,7 +468,7 @@ FoodTypes:
           - Pickles
         - Salsa
         - Sauce
-     - Compound:
+    - Compound:
         - Granola
         - Sandwich
         - Taco
