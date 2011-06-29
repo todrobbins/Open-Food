@@ -464,8 +464,8 @@ FoodTypes:
         - Marmalade
         - Preserves
         - Pickled: 
-         - Pickled Vegetable
-         - Pickles
+          - Pickled Vegetable
+          - Pickles
         - Salsa
         - Sauce
      - Compound:
