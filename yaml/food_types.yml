@@ -469,6 +469,7 @@ FoodTypes:
         - Salsa
         - Sauce
      - Compound:
+        - Granola
         - Sandwich
         - Taco
         - Pizza
