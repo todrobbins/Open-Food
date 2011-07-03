@@ -49,6 +49,7 @@ FoodTypes:
         - Pasta filata Cheese
         - Processed Cheese
         - Semi-firm Cheese
+        - Feta Cheese
         - Semi-soft Cheese
         - Sharp  Cheese
         - Soft-ripened Cheese
@@ -135,6 +136,7 @@ FoodTypes:
   - Plant:
     - Fruit:
       - Apple
+      - Apple Chips
       - Apricot
       - Banana
       - Berry
@@ -267,6 +269,7 @@ FoodTypes:
       - Eggplant (Aubergine)   
       - Elephant Garlic
       - Endive
+      - English Peas
       - Ensete
       - Fennel
       - Fiddlehead
@@ -278,16 +281,43 @@ FoodTypes:
       - Ginger
       - Gobo
       - Golden Samphire
+      - Green Onions
       - Herb:
+        - Anise Hyssop
         - Basil
+        - Cinnamon Basil
         - Lemon Basil
+        - Opal Basil
         - Thai Basil
         - Bay Leaf
+        - Bee Balm
+        - Borage
+        - Burnet
+        - Chamomile
         - Chives
+        - Chive Blossoms
         - Chervil
+        - Chicory
         - Cilantro
+        - Dill
+        - Garlic Blossoms
+        - Garlic Scapes
+        - Kaffir
         - Lavendar
+        - Lemon Balm
+        - Lemon Grass
+        - Lemon Verbena
+        - Fennel/Licorice
+        - Lovage
+        - Marjoram
+        - Oregano
+        - Peppermint
         - Rosemary
+        - Sage
+        - Savory
+        - Sorrel
+        - Spearmint
+        - Tarragon
         - Thyme
         - Parsley
         - Mint
@@ -355,6 +385,7 @@ FoodTypes:
       - Onion
       - Paracress
       - Parsnip
+      - Pattypan Squash
       - Pignut
       - Pointed Gourd
       - Potato
@@ -413,6 +444,7 @@ FoodTypes:
       - Tinda
       - Tomatillo
       - Tomato
+      - Turkish Turban Squash
       - Turnip
       - Ulluco
       - Wasabi (Japanese horseradish)   
@@ -426,6 +458,7 @@ FoodTypes:
       - Yacon
       - Yam
       - Zucchini
+      - Zucchini Blossoms
   - Spices:
     - Salt:
       - Kosher Salt
@@ -456,6 +489,7 @@ FoodTypes:
         - Muffin
         - Croissant
         - Cake
+        - Nougat
         - Scone
         - Crepe
     - Canned:
@@ -473,6 +507,11 @@ FoodTypes:
         - Sandwich
         - Taco
         - Pizza
+    - Oils:
+        - Avocado Oil
+        - Canola Oil
+        - Olive Oil
+       
   - Manufactured
 
 # modifications will run before updates 
