@@ -147,6 +147,7 @@ FoodTypes:
       - Chokeberry
       - Cranberry
       - Currant
+      - Fig
       - Gooseberry
       - Grape
       - Greengage
@@ -163,6 +164,7 @@ FoodTypes:
       - Orange
       - Peach
       - Pear
+      - Perssimon
       - Pineapple
       - Plum
       - Pomegranate
