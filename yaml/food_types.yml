@@ -52,6 +52,7 @@ FoodTypes:
         - Feta Cheese
         - Semi-soft Cheese
         - Sharp  Cheese
+        - Sheep Cheese
         - Soft-ripened Cheese
         - Whey Cheese
       - Milk:
@@ -126,10 +127,12 @@ FoodTypes:
       - Crimini Mushroom
       - Black Trumpet Mushroom
       - Lobster Mushroom
+      - Maitake Mushroom
       - Morel Mushroom
       - Oyster Mushroom
       - Porcini Mushroom
       - Portobello Mushroom
+      - Reishi Mushroom
       - Shiitake Mushroom
     - Yeast
     - Truffle
@@ -219,6 +222,7 @@ FoodTypes:
     - Seeds:
       - Cacao:
         - Chocolate
+        - Fudge
       - Sunflower Seeds
       - Sesame Seeds
       - Pumpkin Seeds
@@ -319,6 +323,7 @@ FoodTypes:
         - Savory
         - Sorrel
         - Spearmint
+        - Sun dried tomato
         - Tarragon
         - Thyme
         - Parsley
@@ -493,8 +498,10 @@ FoodTypes:
         - Cake
         - Nougat
         - Scone
+        - Toffee
         - Crepe
     - Canned:
+        - Chutney
         - Jam
         - Jelly
         - Marmalade
@@ -504,6 +511,7 @@ FoodTypes:
           - Pickles
         - Salsa
         - Sauce
+        - Tapenade
     - Compound:
         - Granola
         - Sandwich
