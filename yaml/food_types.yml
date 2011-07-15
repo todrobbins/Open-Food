@@ -107,6 +107,7 @@ FoodTypes:
       - Apple Juice
       - Apple Cider
       - Orange Juice
+      - Lemonade
     - Tea:
       - Black  Tea
       - Chai  Tea
@@ -379,7 +380,10 @@ FoodTypes:
         - Velvet Bean
         - Winged Bean
         - Yardlong Bean
-      - Lettuce
+      - Lettuce:
+        - Salad Greens
+        - Romaine
+        - Boston Leaf 
       - Lotus Roots
       - Luffa
       - Malabar Gourd
@@ -511,6 +515,7 @@ FoodTypes:
           - Pickles
         - Salsa
         - Sauce
+        - Soup
         - Tapenade
     - Compound:
         - Granola
