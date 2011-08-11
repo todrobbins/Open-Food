@@ -1,0 +1,109 @@
+---
+SourceTypes:
+  - Origin:
+    - Farm:
+      - Apiary
+      - Aquaculture
+      - Dairy Farm
+      - Poultry Farm
+      - Diversified Farm
+      - Greenhouse
+      - Ranch
+      - Urban Farm
+      - Shellfish Farm
+      - Orchard
+    - Fish Boat
+    - Garden:
+      - Community Garden
+      - Personal Garden
+    - Wild:
+      - Forager
+      - Hunter
+    - Drinking Fountain
+  - Middleman:
+    - Distributor
+    - Processor:
+      - Commercial Baker
+      - Mill
+      - Homemade
+      - Meat Processor
+      - On-farm Processor
+      - Packer
+      - Roaster
+      - Seafood Processor
+      - Milk Processor:
+          - Icecream Maker
+          - Chese Maker
+      - Beverage Processor:
+          - Bottled Water
+          - Winery
+          - Brewery
+          - Distillery
+    - Slaughterhouse
+    - Shipper:
+        - Airline
+        - Container Ship
+        - Freight Truck
+        - Farm Truck
+        - Railway
+    - Warehouse
+    - Manufacturer
+       - Wholesaler
+  - Retailer:
+      - Direct Sale:
+          - Community Supported Agriculture (CSA)
+          - Community Supported Fishery (CSF)
+          - Farm Gate
+          - Dock Sales
+          - Tasting Room Sales
+          - U-Pick
+      - Grocer:
+          - Butcher Shop
+          - Bakery
+          - Fish Monger
+          - Farmers Market
+      - Supermarket
+      - Convenience Store
+      - Restaurant:
+          - Bar
+          - Food Truck
+          - Caterer
+          - Cafeteria
+          - Coffee Shop
+      - Alcohol Retail:
+          - Wine Shop
+          - Liquor Store
+          - Beer Depot 
+      
+# modifications will run before updates 
+# be sure to add renames here for anything you rename above or it will get duplicated
+
+PreModifications:
+  # these will do nothing but need to be there or else the worker fails leaving this in but commented as examples
+  - delete:
+    - Goat: 62127546-8239-11e0-96db-001a6bce9a58
+  - rename:
+    - Oat: Oats
+  #- rename:
+  #  - Abbey: Abbey (Beer)
+  #  - Ale: Ale (Beer)
+  #  - Alt: Alt (Beer)
+  #  - India Pale Ale: India Pale Ale (Beer)
+  #  - Lager: Lager (Beer)
+  #  - Lambic: Lambic (Beer)
+  #  - Porter: Porter (Beer)
+  #  - Scotch Ale: Scotch Ale (Beer)
+  #  - Stout: Stout (Beer)
+
+
+#these will run after the new foodtypes tree is inserted
+# unfortunately - this didn't solve the problem that I thought it would
+# the problem is the case where you create a new branch and move existing items into it
+# currently there is no way to do this on the same run without getting duplicates
+PostModifications:
+  - move:
+    - Chives: Herb
+    - Mint: Herb
+    - Parsley: Herb
+    - Rosemary: Herb
+  
