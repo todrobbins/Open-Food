@@ -42,7 +42,7 @@ FoodTypes:
     - Dairy:
       - Cheese:
         - Blue Vein Cheese
-        - Double and Triple Cream  Cheese
+        - Double and Triple Cream Cheese
         - Fresh Cheese
         - Hard Cheese
         - Goat Cheese
@@ -51,7 +51,7 @@ FoodTypes:
         - Semi-firm Cheese
         - Feta Cheese
         - Semi-soft Cheese
-        - Sharp  Cheese
+        - Sharp Cheese
         - Sheep Cheese
         - Soft-ripened Cheese
         - Whey Cheese
@@ -70,15 +70,15 @@ FoodTypes:
   - Beverage:
     - Alcohol:
       - Beer:
-        - Abbey   (Beer)
+        - Abbey (Beer)
         - Ale (Beer)
         - Alt (Beer)  
         - India Pale Ale (Beer)  
-        - Lager  (Beer)
+        - Lager (Beer)
         - Lambic (Beer)
-        - Porter  (Beer)
+        - Porter (Beer)
         - Scotch Ale (Beer)  
-        - Stout  (Beer)
+        - Stout (Beer)
       - Spirit:
         - Brandy
         - Gin
@@ -99,27 +99,31 @@ FoodTypes:
         - Sake
         - Sparkling Wine
         - Table Wine:
-          - Red  Table Wine
+          - Red Table Wine
           - Rose Table Wine
           - White Table Wine
     - Coffee
     - Juice:
       - Apple Juice
       - Apple Cider
-      - Orange Juice
+      - Grape Juice
       - Lemonade
+      - Orange Juice
+      - Pear Juice
+      - Pineapple Juice
+      - Prune Juice
     - Tea:
-      - Black  Tea
-      - Chai  Tea
+      - Black Tea
+      - Chai Tea
       - Flowering Tea
-      - Green  Tea
-      - Herbal  Tea
+      - Green Tea
+      - Herbal Tea
       - Honeybush Tea
-      - Oolong  Tea
-      - Pu-Erh  Tea
-      - Rooibos  Tea
-      - White  Tea
-      - Yellow  Tea
+      - Oolong Tea
+      - Pu-Erh Tea
+      - Rooibos Tea
+      - White Tea
+      - Yellow Tea
       - Yerba Mate Tea
     - Water
   - Fungi:
@@ -196,15 +200,15 @@ FoodTypes:
         - Teff
         - Triticale
         - Wheat:
-          - Durum  Wheat
-          - Einkorn  Wheat
-          - Emmer  Wheat
-          - Hard Red Spring  Wheat
-          - Hard Red Winter  Wheat
-          - Hard White  Wheat
-          - Soft Red Winter  Wheat
-          - Soft White  Wheat
-          - Spelt  Wheat
+          - Durum Wheat
+          - Einkorn Wheat
+          - Emmer Wheat
+          - Hard Red Spring Wheat
+          - Hard Red Winter Wheat
+          - Hard White Wheat
+          - Soft Red Winter Wheat
+          - Soft White Wheat
+          - Spelt Wheat
         - Wild Rice
       - Sugar Cane:
         - Molasses
@@ -418,25 +422,25 @@ FoodTypes:
       - Sea Beat
       - Sea Kale
       - Seaweed:
-        - Aonori  Seaweed
-        - Arame  Seaweed
-        - Carola  Seaweed
+        - Aonori Seaweed
+        - Arame Seaweed
+        - Carola Seaweed
         - Dabberlocks (winged kelp)  Seaweed
-        - Dulse  Seaweed
-        - Gim  Seaweed
-        - Hijki  Seaweed
-        - Irish Moss  Seaweed
-        - Kelps  Seaweed
-        - Kombu  Seaweed
-        - Laver  Seaweed
-        - Mozuku  Seaweed
-        - Nori (laver)  Seaweed
-        - Ogonori  Seaweed
-        - Sea Grape  Seaweed
-        - Sea Lettuce  Seaweed
-        - Seakale  Seaweed
-        - Sloke  Seaweed
-        - Wakame  Seaweed
+        - Dulse Seaweed
+        - Gim Seaweed
+        - Hijki Seaweed
+        - Irish Moss Seaweed
+        - Kelps Seaweed
+        - Kombu Seaweed
+        - Laver Seaweed
+        - Mozuku Seaweed
+        - Nori (laver) Seaweed
+        - Ogonori Seaweed
+        - Sea Grape Seaweed
+        - Sea Lettuce Seaweed
+        - Seakale Seaweed
+        - Sloke Seaweed
+        - Wakame Seaweed
       - Shallot
       - Skirret
       - Snake Gourd
